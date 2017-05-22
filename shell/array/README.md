@@ -6,12 +6,12 @@ Constraints
 1 <= N <= 25
 -10^4 <= array element <= 10^4
 
-Sample input 1
-Array = 1 2 3 4
-Sample Output 1
-10
+Sample input 1 
+Array = 1 2 3 4 
+Sample Output 1 
+10 
 
-Sample input 2
-Array = -1 -2 3 4
-Sample output 2
-4
+Sample input 2 
+Array = -1 -2 3 4 
+Sample output 2 
+4 
