@@ -55,7 +55,7 @@ options = {
 finalsum=0
 
 for sum1 in arr:
-    fb=options[sum1]()
+    options[sum1]()
 
 for add in otharr:
     finalsum=finalsum+add
