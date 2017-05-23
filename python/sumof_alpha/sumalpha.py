@@ -52,12 +52,12 @@ options = {
     'ten' : ten
 }
 
-# finalsum=[]
+finalsum=0
 
-print(options)
 for sum1 in arr:
-    options[sum1]()
-    for add in otharr:
-        finalsum=finalsum+add
+    fb=options[sum1]()
 
-print(finalsum)
+for add in otharr:
+    finalsum=finalsum+add
+
+print "Addition of ",arr, "=",finalsum
